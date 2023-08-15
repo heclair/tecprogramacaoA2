@@ -7,7 +7,7 @@ constructor(a:string,b:number){
     this.idade = b;
 }
 
-  imprimir() {
+  imprimir():void {
     //nome seguido de abre e fecha parenteses é função, dentro da classe é um método
     console.log(this.nome, this.idade);
   }
