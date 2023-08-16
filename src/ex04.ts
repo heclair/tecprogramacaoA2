@@ -2,10 +2,10 @@ class Carro {
   marca: string = "";
   modelo: string = "";
 
-  constructor(marca: string, modelo: string) {
+  /*constructor(marca: string, modelo: string) {
     this.marca = marca;
     this.modelo = modelo;
-  }
+  }*/
 
   setMarca(marca: string): void {
     this.marca = marca;
@@ -18,7 +18,14 @@ class Carro {
   }
 }
 
-const d = new Carro("VW", "Gol");
-const e = new Carro("Fiat", "Uno");
-d.print();
-e.print();
+/*const d = new Carro("VW", "Gol");
+const e = new Carro("Fiat", "Uno");*/
+
+const um = new Carro ();
+um.modelo = "Gol";
+um.marca = "VW";
+const dois = new Carro();
+dois.modelo = "Uno";
+dois.marca = "Fiat";
+um.print();
+dois.print();
